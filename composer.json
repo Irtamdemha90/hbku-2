@@ -1,10 +1,10 @@
 {
-    "name": "theme/hbku",
+    "name": "hbku-comms\\/hbku",
     "description": "HBKU 2.0 theme based on patternlab",
     "type": "theme",
     "autoload": {
         "psr-4": {
-            "Theme\\Hbku\\": "src/"
+            "Hbku-comms\\\\Hbku\\": "src/"
         }
     },
     "authors": [
