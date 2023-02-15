@@ -1,12 +1,7 @@
 {
-    "name": "hbku-comms\\/hbku",
+    "name": "hbku-comms/hbku",
     "description": "HBKU 2.0 theme based on patternlab",
-    "type": "theme",
-    "autoload": {
-        "psr-4": {
-            "Hbku-comms\\\\Hbku\\": "src/"
-        }
-    },
+    "type": "drupal-theme",
     "authors": [
         {
             "name": "Ahmed Matri",
