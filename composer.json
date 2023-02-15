@@ -2,6 +2,7 @@
     "name": "hbku-comms/hbku",
     "description": "HBKU 2.0 theme based on patternlab",
     "type": "drupal-theme",
+    "license": "GPL-2.0+",
     "authors": [
         {
             "name": "Ahmed Matri",
