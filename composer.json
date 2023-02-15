@@ -1,7 +1,7 @@
 {
     "name": "hbku-comms/hbku",
     "description": "HBKU 2.0 theme based on patternlab",
-    "type": "drupal-theme",
+    "type": "drupal-custom-theme",
     "license": "GPL-2.0+",
     "authors": [
         {
