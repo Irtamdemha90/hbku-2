@@ -1751,5 +1751,45 @@ a.bg-medium-blue:hover {
   }
 }
 
+.modal-search .modal-content {
+  background: transparent;
+  border: none;
+}
+
+.modal-search .modal-content .searchbox__inner {
+  width: 100%;
+  border-bottom: 1px solid #1e1656;
+}
+
+.modal-search .modal-content .searchbox__inner .form-outline {
+  width: calc(100% - 44px);
+}
+
+.modal-search .modal-content .searchbox__inner .form-outline input {
+  width: 100%;
+  border-radius: 0;
+  background-color: transparent;
+  padding-left: 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.modal-search .modal-content .searchbox__inner .form-outline input:focus {
+  border: 0;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.modal-search .modal-content .searchbox__inner i {
+  color: #1e1656;
+}
+
+.modal-search.modal {
+  background-color: rgba(255, 255, 255, 0.9);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 /*====== Header Block css end here ======*/
 /*# sourceMappingURL=../../../maps/assets/css/main.css.map */

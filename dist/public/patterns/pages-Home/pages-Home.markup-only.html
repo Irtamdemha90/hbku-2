@@ -23,7 +23,10 @@
                                 <li class="last"><a href="/ar" class="language-link" xml:lang="ar">العربية</a></li>
                             </ul>
                         </li>
-                        <li class="search"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></li>
+                        <li class="search">
+                            <i class="fa-sharp fa-solid fa-magnifying-glass" data-bs-toggle="modal" data-bs-target="#searchModal"></i>
+                             
+                            </li>
                         <li class="login">
                             <div class="dropdown">
                                 <a href="#" class="d-block" id="login" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,9 +45,29 @@
                     </ul>
                 </div>
             </div>
-
         </div>
+        <!-- Search modal pop html start here -->
+				<!-- Search model pop html end here -->
     </div>
+        <!-- Modal -->
+        <div class="modal fade modal-search" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form class="searchbox" action="#" method="get">
+                        <div class="input-group searchbox__inner">
+                            <div class="form-outline">
+                                <input type="search" id="form1" class="form-control" placeholder="Search here..." />
+                            </div>
+                            <button type="button" class="btn">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
 </header>
 <section class="m-wrap bg-darkblue mt-3 mb-3">
   <div class="container">

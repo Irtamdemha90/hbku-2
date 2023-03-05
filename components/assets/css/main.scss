@@ -1457,4 +1457,37 @@ a.bg-medium-blue:hover {
     }
   }
 }
+.modal-search {
+  .modal-content {
+    background: transparent;
+    border: none;
+    .searchbox__inner {
+      width: 100%;
+      border-bottom: 1px solid #1e1656;
+      .form-outline {
+        width: calc(100% - 44px);
+        input {
+          width: 100%;
+          border-radius: 0;
+          background-color: transparent;
+          padding-left: 0;
+          font-size: 1.5rem;
+          font-weight: 300;
+          &:focus {
+            border: 0;
+            outline: none;
+            box-shadow: none;
+          }
+        }
+      }
+      i {
+        color: #1e1656;
+      }
+    }
+  }
+  &.modal {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: none;
+  }
+}
 /*====== Header Block css end here ======*/
